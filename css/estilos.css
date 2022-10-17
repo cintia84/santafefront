@@ -1,0 +1,16 @@
+body {background-image: url(madera2.jpg);}
+
+.rojoletra{color: teal; font-family: cursive;font-size: 70px;font-weight: 500; text-decoration-line: underline;}
+
+.descripcion{background-color: salmon;}
+.descripcion{font-family: cursive;font-size: 40px;color: olive;}
+.ingredientes{font-family: cursive;font-size: 60px;color:teal;text-decoration: underline;}
+.MASACLÁSICA{font-size: 40px;color: OrangeRed;text-decoration: underline;}
+.RELLENO{font-size: 40PX; color: OrangeRed;text-decoration: underline;}
+.lista{font-size: 50px;color: salmon;}
+.lista2{font-size: 50px;color: salmon}
+.preparacion{font-size: 50px; color: OrangeRed; text-decoration: underline;}
+.lista3{font-size: 40px; color: salmon;}
+.manos{font-size: 50px; color: OrangeRed; text-decoration: underline;}
+.ubicacion{font-size: 50px; color: OrangeRed; text-decoration: underline;}
+.href{background-color: grey}
