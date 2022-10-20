@@ -1,16 +1,31 @@
-body {background-image: url(madera2.jpg);}
+body {background-color: pink;
+  background-image: url(madera2.jpg);}
 
-.rojoletra{color: teal; font-family: cursive;font-size: 70px;font-weight: 500; text-decoration-line: underline;}
-
-.descripcion{background-color: salmon;}
-.descripcion{font-family: cursive;font-size: 40px;color: olive;}
-.ingredientes{font-family: cursive;font-size: 60px;color:teal;text-decoration: underline;}
-.MASACLÁSICA{font-size: 40px;color: OrangeRed;text-decoration: underline;}
-.RELLENO{font-size: 40PX; color: OrangeRed;text-decoration: underline;}
-.lista{font-size: 50px;color: salmon;}
-.lista2{font-size: 50px;color: salmon}
-.preparacion{font-size: 50px; color: OrangeRed; text-decoration: underline;}
-.lista3{font-size: 40px; color: salmon;}
-.manos{font-size: 50px; color: OrangeRed; text-decoration: underline;}
+.rojoletra{color: teal; font-family: cursive;font-size: 50px;
+  font-weight: 300; text-decoration-line: underline;}
+  .intro{font-family: cursive;font-size: 40px; color: crimson; font-style: italic;}
+.ingredientes{font-family: cursive;font-size: 80px;color:lime;text-decoration: underline;text-align: center;}
+.MASACLÁSICA{font-size: 60px;color: OrangeRed;text-decoration: underline;}
+.RELLENO{font-size: 60PX; color: OrangeRed;text-decoration: underline;}
+.preparacion{font-size: 80px; color: lime; text-decoration: underline;}
+.video{float: right;}
+.manos{font-size: 80px; color: OrangeRed; text-decoration: underline;}
 .ubicacion{font-size: 50px; color: OrangeRed; text-decoration: underline;}
 .href{background-color: grey}
+header{background-color:pink;
+background-image: url(imagenheader.jpg);background-repeat:space;
+background-size:cover;background-attachment: fixed;}
+nav{background-color: SpringGreen;float: left;}
+section{background-image: url(fondoculinario.jpg);background-repeat: no-repeat;
+background-size: cover;background-attachment: fixed;font-size: 40px; font-style: italic; color: lime;display: inline-block;}
+aside{background-color: pink; background-image: url(fondoculinario.jpg);
+  background-repeat: no-repeat;background-size:cover; font-size: 40px;font-style: italic;color:lime;
+  text-align: center;background-attachment: fixed;display: block;;}
+footer{background-color: white;}
+.whats{width: 120px;
+position: fixed;
+bottom: 60px;
+right: 60px;}
+.facebook{width: 150px;position: sticky;}
+.instagram{width: 150px;bottom: 200px}
+.twitter{width: 150px}
