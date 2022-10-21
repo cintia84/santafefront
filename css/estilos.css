@@ -1,22 +1,22 @@
 body {background-color: pink;
   background-image: url(madera2.jpg);}
-
-.rojoletra{color: teal; font-family: cursive;font-size: 50px;
+.textprep{text-align:  center;}
+.rojoletra{color: olive; font-family: cursive;font-size: 80px;
   font-weight: 300; text-decoration-line: underline;}
   .intro{font-family: cursive;font-size: 40px; color: crimson; font-style: italic;}
 .ingredientes{font-family: cursive;font-size: 80px;color:lime;text-decoration: underline;text-align: center;}
 .MASACLÁSICA{font-size: 60px;color: OrangeRed;text-decoration: underline;}
 .RELLENO{font-size: 60PX; color: OrangeRed;text-decoration: underline;}
 .preparacion{font-size: 80px; color: lime; text-decoration: underline;}
-.video{float: right;}
+.video{float: none;}
 .manos{font-size: 80px; color: OrangeRed; text-decoration: underline;}
 .ubicacion{font-size: 50px; color: OrangeRed; text-decoration: underline;}
 .href{background-color: grey}
 header{background-color:pink;
 background-image: url(imagenheader.jpg);background-repeat:space;
-background-size:cover;background-attachment: fixed;}
+background-size:cover;background-attachment: fixed;overflow: auto;}
 nav{background-color: SpringGreen;float: left;}
-section{background-image: url(fondoculinario.jpg);background-repeat: no-repeat;
+section{background-image: url(./css/fondoculinario.jpg);background-repeat: no-repeat;
 background-size: cover;background-attachment: fixed;font-size: 40px; font-style: italic; color: lime;display: inline-block;}
 aside{background-color: pink; background-image: url(fondoculinario.jpg);
   background-repeat: no-repeat;background-size:cover; font-size: 40px;font-style: italic;color:lime;
