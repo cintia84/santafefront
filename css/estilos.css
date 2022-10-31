@@ -1,31 +1,65 @@
-body {background-color: pink;
-  background-image: url(madera2.jpg);}
-.textprep{text-align:  center;}
-.rojoletra{color: olive; font-family: cursive;font-size: 80px;
-  font-weight: 300; text-decoration-line: underline;}
-  .intro{font-family: cursive;font-size: 40px; color: crimson; font-style: italic;}
-.ingredientes{font-family: cursive;font-size: 80px;color:lime;text-decoration: underline;text-align: center;}
-.MASACLÁSICA{font-size: 60px;color: OrangeRed;text-decoration: underline;}
-.RELLENO{font-size: 60PX; color: OrangeRed;text-decoration: underline;}
-.preparacion{font-size: 80px; color: lime; text-decoration: underline;}
-.video{float: none;}
-.manos{font-size: 80px; color: OrangeRed; text-decoration: underline;}
-.ubicacion{font-size: 50px; color: OrangeRed; text-decoration: underline;}
-.href{background-color: grey}
-header{background-color:pink;
-background-image: url(imagenheader.jpg);background-repeat:space;
-background-size:cover;background-attachment: fixed;overflow: auto;}
-nav{background-color: SpringGreen;float: left;}
-section{background-image: url(./css/fondoculinario.jpg);background-repeat: no-repeat;
-background-size: cover;background-attachment: fixed;font-size: 40px; font-style: italic; color: lime;display: inline-block;}
-aside{background-color: pink; background-image: url(fondoculinario.jpg);
-  background-repeat: no-repeat;background-size:cover; font-size: 40px;font-style: italic;color:lime;
-  text-align: center;background-attachment: fixed;display: block;;}
-footer{background-color: white;}
-.whats{width: 120px;
-position: fixed;
-bottom: 60px;
-right: 60px;}
-.facebook{width: 150px;position: sticky;}
-.instagram{width: 150px;bottom: 200px}
-.twitter{width: 150px}
+body{background-color: green;background-image: url(madera2.jpg);}
+
+header{background-color: yellow;background-image: url(verde.jpg);
+  background-size: cover;border: 5px black solid;
+  display: flex;flex-wrap: wrap;align-items: center;justify-content: space-around;}
+  .redes{width: 10%;display: flex;flex-wrap: wrap;justify-content: space-around;margin: 10px}
+  .face{width: 70px;margin: 5px}
+  .inst{width: 70px;margin: 5px}
+  .twit{width: 70px;margin: 5px}
+  .you{width: 70px;height: 70px;margin: 5px}
+nav{background-color: greenyellow;width: 100px;
+  justify-content: space-around;align-items:center;justify-content: space-between;}
+
+.titulo{font-size: 50px;font-style: oblique;font-family: cursive;
+  color: indigo;width: 50%;text-align: center;text-decoration: underline;
+margin: 10px;}
+
+.subtitulo{font-size: 50px;font-style: normal;
+  font-weight: 80px;font-family: inherit;color: LightPink;}
+
+.logo{width: 200px;height: 200px;margin:10px}
+
+.Titulo{justify-content: center;align-content: stretch;align-items: center;
+  flex-direction: column;}
+
+.Subtitulo{justify-content: center;}
+.Empanadas{width: 200px;}
+
+.subtituloenlaces{font-size: 40px;font-style: italic;font-family: cursive;color: lime;}
+
+.enlaces{background-color: YellowGreen;}
+
+.section1{background-color: green;background-image: url(verde.jpg);
+  background-repeat: no-repeat;background-attachment: fixed;background-size: cover;
+  font-size: 40px;font-style: italic;color: lime;text-align: center;}
+
+  .section2{margin: 100px;background-image: url(fondoculinario.jpg);background-repeat: no-repeat;background-size: cover;
+  background-attachment: fixed;font-size: 40px;color:white;padding: 80px;border: 20px}
+
+.whats{width: 100px;position: fixed;bottom: 60px;right: 60px;}
+
+.ingredientes{font-family: cursive;font-size: 50px;color:lime;
+  text-decoration: underline;text-align: center;}
+
+.MASACLÁSICA{font-size: 40px;color: OrangeRed;text-decoration: underline;}
+
+.RELLENO{font-size: 40PX; color: OrangeRed;text-decoration: underline;}
+
+.preparacion{font-size: 40px; color: lime; text-decoration: underline;}
+
+aside{background-color: pink; background-image: url(verde.jpg);
+  background-repeat: no-repeat;background-size:cover; font-size: 30px;font-style: italic;
+  color:lime;text-align: center;background-attachment: fixed;display: block;;}
+
+  footer{background-color: YellowGreen;width: 100%; display: flex;flex-wrap: wrap;
+    align-content: space-between;justify-content: center;justify-content: space-between;}
+    .h3{font-size: 50px;font-style: italic;display: block;}
+    .git{width: 50px;margin: 2px}
+    .copy{width: 33%;display: flex;flex-wrap: wrap;justify-content: space-around;align-items: center;}
+    .github{display: flex;flex-wrap: wrap;}
+    .tituloeiconos{width: 33%;display: flex;flex-wrap: wrap;justify-content: space-around;
+      align-items: center;;flex-direction: column;font-size: 30px;}
+
+
+    .miciudad{width: 33%;font-size: 20px;font-style: italic;}
