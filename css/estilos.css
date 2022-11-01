@@ -1,65 +1,52 @@
 body{background-color: green;background-image: url(madera2.jpg);}
 
+
+
 header{background-color: yellow;background-image: url(verde.jpg);
   background-size: cover;border: 5px black solid;
-  display: flex;flex-wrap: wrap;align-items: center;justify-content: space-around;}
-  .redes{width: 10%;display: flex;flex-wrap: wrap;justify-content: space-around;margin: 10px}
+  display: flex;flex-wrap: wrap;align-items: center;justify-content: space-around;margin: 100px;}
+  .redes{width: 20%;display: flex;flex-wrap: wrap;justify-content: space-around;}
   .face{width: 70px;margin: 5px}
   .inst{width: 70px;margin: 5px}
-  .twit{width: 70px;margin: 5px}
+  .pint{width: 70px;margin: 5px}
   .you{width: 70px;height: 70px;margin: 5px}
-nav{background-color: greenyellow;width: 100px;
-  justify-content: space-around;align-items:center;justify-content: space-between;}
+.logo{width: 200px;height: 200px;margin-bottom: 20px;}
 
-.titulo{font-size: 50px;font-style: oblique;font-family: cursive;
-  color: indigo;width: 50%;text-align: center;text-decoration: underline;
-margin: 10px;}
+nav{background-image: url(verde.jpg);background-repeat: no-repeat;background-attachment: fixed;
+  background-size: cover;display: flex;align-items: center;justify-content: space-around;
+flex-direction: column;margin: 100px;flex-wrap: wrap;}
+.Empanadas{width:30%;display: flex;margin: 5px;justify-content: space-around;
+align-content: space-around;}
+.enlaces{background-color: YellowGreen;width: 100%;display: flex;justify-content: center;flex-direction: column;
+align-items: center;}
 
-.subtitulo{font-size: 50px;font-style: normal;
-  font-weight: 80px;font-family: inherit;color: LightPink;}
+h1{font-size: 50px;font-family: cursive;font-style: italic;color: indigo;
+text-decoration: underline;margin: 5px;}
+h2{font-size: 40px;font-style: normal;font-family: sans-serif;color: OrangeRed;text-align: center;}
+p{font-size: 40px;font-style: normal;font-family: serif;color: DarkViolet;text-align: center;}
+a{font-size: 30px;}
+h3{font-size: 30px;font-style: oblique;font-family: sans-serif;color: yellow}
+h4{font-size: 40px;font-style: normal;font-family: sans-serif;color:DarkKhaki;text-align: center;}
+li{font-size: 30px;font-style: normal;color:LightYellow;text-align: center;}
 
-.logo{width: 200px;height: 200px;margin:10px}
+a:hover{
+  color:red}
+nav:hover{background-color: blue}
+  section{margin: 100px;background-image: url(fondoculinario.jpg);background-repeat: no-repeat;background-size: cover;
+  background-attachment: fixed;font-size: 40px;color:white;padding: 80px;border: 20px;display: flex;flex-wrap: wrap
+  ;flex-direction: column;text-align: center;}
 
-.Titulo{justify-content: center;align-content: stretch;align-items: center;
-  flex-direction: column;}
-
-.Subtitulo{justify-content: center;}
-.Empanadas{width: 200px;}
-
-.subtituloenlaces{font-size: 40px;font-style: italic;font-family: cursive;color: lime;}
-
-.enlaces{background-color: YellowGreen;}
-
-.section1{background-color: green;background-image: url(verde.jpg);
-  background-repeat: no-repeat;background-attachment: fixed;background-size: cover;
-  font-size: 40px;font-style: italic;color: lime;text-align: center;}
-
-  .section2{margin: 100px;background-image: url(fondoculinario.jpg);background-repeat: no-repeat;background-size: cover;
-  background-attachment: fixed;font-size: 40px;color:white;padding: 80px;border: 20px}
-
-.whats{width: 100px;position: fixed;bottom: 60px;right: 60px;}
-
-.ingredientes{font-family: cursive;font-size: 50px;color:lime;
-  text-decoration: underline;text-align: center;}
-
-.MASACLÁSICA{font-size: 40px;color: OrangeRed;text-decoration: underline;}
-
-.RELLENO{font-size: 40PX; color: OrangeRed;text-decoration: underline;}
-
-.preparacion{font-size: 40px; color: lime; text-decoration: underline;}
 
 aside{background-color: pink; background-image: url(verde.jpg);
   background-repeat: no-repeat;background-size:cover; font-size: 30px;font-style: italic;
-  color:lime;text-align: center;background-attachment: fixed;display: block;;}
+  color:lime;text-align: center;background-attachment: fixed;display: flex;flex-wrap: wrap;
+  flex-direction: column;align-items:  center;;margin:100px;}
 
-  footer{background-color: YellowGreen;width: 100%; display: flex;flex-wrap: wrap;
-    align-content: space-between;justify-content: center;justify-content: space-between;}
-    .h3{font-size: 50px;font-style: italic;display: block;}
-    .git{width: 50px;margin: 2px}
-    .copy{width: 33%;display: flex;flex-wrap: wrap;justify-content: space-around;align-items: center;}
-    .github{display: flex;flex-wrap: wrap;}
-    .tituloeiconos{width: 33%;display: flex;flex-wrap: wrap;justify-content: space-around;
-      align-items: center;;flex-direction: column;font-size: 30px;}
+  footer{background-color: YellowGreen; display: flex;flex-wrap: wrap;
+    justify-content: space-around;margin: 100px;align-items: center;;height: 400px;}
+    .redes{width:20%;height: 80px ;display:flex;flex-wrap: wrap;justify-content: center;margin-bottom: 200px;}
+  .copy{display: flex;flex-wrap: wrap;text-align: center;flex-direction: column;}
 
 
-    .miciudad{width: 33%;font-size: 20px;font-style: italic;}
+
+  .whats{width: 100px;position: fixed;bottom: 60px;right: 60px;}
