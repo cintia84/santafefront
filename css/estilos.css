@@ -1,30 +1,35 @@
+@import url('https://fonts.googleapis.com/css2? family= Satisfy & display=swap');
+@import url('https://fonts.googleapis.com/css2? familia = Kaushan + Guión &family= Satisfy & display=swap');
+@import url('https://fonts.googleapis.com/css2? familia = galleta yfamilia = Kaushan + Guión &family= Satisfy & display=swap');
 body{background-color: green;background-image: url(madera2.jpg);}
 
-
+.contac{font-family:'Satisfacer', cursiva; }
 
 header{background-color: yellow;background-image: url(verde.jpg);
   background-size: cover;border: 5px black solid;
-  display: flex;flex-wrap: wrap;align-items: center;justify-content: space-around;margin: 100px;}
-  .redes{width: 20%;display: flex;flex-wrap: wrap;justify-content: space-around;}
-  .face{width: 70px;margin: 5px}
-  .inst{width: 70px;margin: 5px}
-  .pint{width: 70px;margin: 5px}
-  .you{width: 70px;height: 70px;margin: 5px}
-.logo{width: 200px;height: 200px;margin-bottom: 20px;}
-
+  display: flex;flex-wrap: wrap;align-items: center;justify-content:  space-around;;margin: 100px;}
+  .redes{display:flex;flex-wrap: wrap;justify-content: center;align-items:  flex-end;justify-content: space-around;;}
+  .face{width: 40px; margin: 5px}
+  .inst{width: 40px;margin: 5px}
+.pint{width: 40px;margin: 5px}
+.you{width: 40px;margin: 5px}
+.logo{width: 10%;height: 10%;margin-bottom: 20px;}
+.caja{width: 50%;
+      height: 300px;background-color: red}
 nav{background-image: url(verde.jpg);background-repeat: no-repeat;background-attachment: fixed;
-  background-size: cover;display: flex;align-items: center;justify-content: space-around;
-flex-direction: column;margin: 100px;flex-wrap: wrap;}
-.Empanadas{width:30%;display: flex;margin: 5px;justify-content: space-around;
-align-content: space-around;}
+  background-size: cover;display: flex;align-items:  baseline;justify-content: space-around;
+flex-direction: row-reverse;margin: 100px;flex-wrap: wrap;}
+.Empanadas{width:40%;display: flex;margin: 5px;align-items: center;;flex-direction: column;;}
 .enlaces{background-color: YellowGreen;width: 100%;display: flex;justify-content: center;flex-direction: column;
 align-items: center;}
+.inicio-contactos{display: flex;flex-wrap: wrap;flex-direction: column;align-items: center;}
+.audio{display: flex;flex-wrap: wrap;flex-direction: column;}
 
-h1{font-size: 50px;font-family: cursive;font-style: italic;color: indigo;
+h1{font-size: 50px;font-family: 'Cookie', cursiva;font-style:  italic;color: indigo;
 text-decoration: underline;margin: 5px;}
-h2{font-size: 40px;font-style: normal;font-family: sans-serif;color: OrangeRed;text-align: center;}
-p{font-size: 40px;font-style: normal;font-family: serif;color: DarkViolet;text-align: center;}
-a{font-size: 30px;}
+h2{font-size: 40px;font-style:  oblique;;font-family: 'Satisfacer', cursiva;color: OrangeRed;text-align: center;}
+p{font-size: 40px;font-style:  oblique;font-family: 'Cookie', cursiva;;color: DarkViolet;text-align: center;}
+a{font-size: 30px;font-family: 'Cookie', cursiva;font-style: oblique;}
 h3{font-size: 30px;font-style: oblique;font-family: sans-serif;color: yellow}
 h4{font-size: 40px;font-style: normal;font-family: sans-serif;color:DarkKhaki;text-align: center;}
 li{font-size: 30px;font-style: normal;color:LightYellow;text-align: center;}
