@@ -1,57 +1,60 @@
 @import url('https://fonts.googleapis.com/css2? family= Satisfy & display=swap');
 @import url('https://fonts.googleapis.com/css2? familia = Kaushan + Guión &family= Satisfy & display=swap');
 @import url('https://fonts.googleapis.com/css2? familia = galleta yfamilia = Kaushan + Guión &family= Satisfy & display=swap');
-body{background-color: green;background-image: url(madera2.jpg);}
+body{background-color: green;background-image: url(madera2.jpg);display: flex;flex-wrap: wrap;justify-content: center;}
 
-.contac{font-family:'Satisfacer', cursiva; }
+.contactos1{font-family:'Satisfacer', cursiva;width: 80vw;}
 
-header{background-color: yellow;background-image: url(verde.jpg);
+header{height: 15vh;width: 80vw;background-color: yellow;background-image: url(verde.jpg);
   background-size: cover;border: 5px black solid;
-  display: flex;flex-wrap: wrap;align-items: center;justify-content:  space-around;;margin: 100px;}
-  .redes{display:flex;flex-wrap: wrap;justify-content: center;align-items:  flex-end;justify-content: space-around;;}
-  .face{width: 40px; margin: 5px}
-  .inst{width: 40px;margin: 5px}
-.pint{width: 40px;margin: 5px}
-.you{width: 40px;margin: 5px}
-.logo{width: 10%;height: 10%;margin-bottom: 20px;}
-.caja{width: 50%;
-      height: 300px;background-color: red}
-nav{background-image: url(verde.jpg);background-repeat: no-repeat;background-attachment: fixed;
+  display: flex;flex-wrap: wrap;align-items: center;justify-content: space-around;margin: 4%;}
+  .redes{display:flex;flex-wrap: wrap;justify-content: center;display: inline;}
+  .face{width: 10%;margin: 1%}
+  .inst{width: 10%;margin: 1%}
+.pint{width: 10%;margin: 1%}
+.you{width: 10%;margin: 1%}
+.logo{width: 8%;margin-bottom: 1%;}
+
+nav{height: 50vh;width: 80vw;background-image: url(verde.jpg);background-repeat: no-repeat;background-attachment: fixed;
   background-size: cover;display: flex;align-items:  baseline;justify-content: space-around;
-flex-direction: row-reverse;margin: 100px;flex-wrap: wrap;}
-.Empanadas{width:40%;display: flex;margin: 5px;align-items: center;;flex-direction: column;;}
+flex-direction: row-reverse;margin: 1%;flex-wrap: wrap;margin-bottom: 2%;}
+.Empanadas{width:40%;display: flex;margin: 1%;align-items: center;flex-direction: column;font-size: 200%;}
 .enlaces{background-color: YellowGreen;width: 100%;display: flex;justify-content: center;flex-direction: column;
 align-items: center;}
-.inicio-contactos{display: flex;flex-wrap: wrap;flex-direction: column;align-items: center;}
-.audio{display: flex;flex-wrap: wrap;flex-direction: column;}
+.inicio-contactos{display: flex;flex-wrap: wrap;flex-direction: column;align-items: center;background-color: YellowGreen;
+font-size: 100%;}
+.audio{font-size: 200%;display: flex;flex-wrap: wrap;flex-direction: column; align-items: center;
+  background-color: YellowGreen }
 
-h1{font-size: 50px;font-family: 'Cookie', cursiva;font-style:  italic;color: indigo;
+h1{font-size: 250%;font-family: 'Cookie', cursiva;font-style:  italic;color: indigo;
 text-decoration: underline;margin: 5px;}
-h2{font-size: 40px;font-style:  oblique;;font-family: 'Satisfacer', cursiva;color: OrangeRed;text-align: center;}
-p{font-size: 40px;font-style:  oblique;font-family: 'Cookie', cursiva;;color: DarkViolet;text-align: center;}
-a{font-size: 30px;font-family: 'Cookie', cursiva;font-style: oblique;}
-h3{font-size: 30px;font-style: oblique;font-family: sans-serif;color: yellow}
-h4{font-size: 40px;font-style: normal;font-family: sans-serif;color:DarkKhaki;text-align: center;}
-li{font-size: 30px;font-style: normal;color:LightYellow;text-align: center;}
+h2{font-size: 100%;font-style:  oblique;;font-family: 'Satisfacer', cursiva;color: Brown;text-align: center;}
+p{font-size: 90%;font-style:  oblique;font-family: 'Cookie', cursiva;;color: DarkViolet;text-align: center;background-color: yellow;padding: 2%;}
+a{font-size: 150%;font-family: 'Cookie', cursiva;font-style: oblique;}
+h3{font-size: 70%;font-style: oblique;font-family: sans-serif;color: black}
+
+li{font-size: 80%;font-style: normal;color:LightYellow;text-align: center;background-color: DarkSeaGreen}
 
 a:hover{
   color:red}
-nav:hover{background-color: blue}
-  section{margin: 100px;background-image: url(fondoculinario.jpg);background-repeat: no-repeat;background-size: cover;
-  background-attachment: fixed;font-size: 40px;color:white;padding: 80px;border: 20px;display: flex;flex-wrap: wrap
-  ;flex-direction: column;text-align: center;}
+
+  section{width: 70vw;margin: 2%;background-image: url(fondoculinario.jpg);background-repeat: no-repeat;background-size: cover;
+  background-attachment: fixed;font-size: 40px;color:white;display: flex;flex-wrap: wrap
+  ;flex-direction: column;text-align: center;padding: 5%;}
 
 
-aside{background-color: pink; background-image: url(verde.jpg);
-  background-repeat: no-repeat;background-size:cover; font-size: 30px;font-style: italic;
+aside{width: 80vw;background-color: pink; background-image: url(verde.jpg);
+  background-repeat: no-repeat;background-size:cover; font-size: 100%;font-style: italic;
   color:lime;text-align: center;background-attachment: fixed;display: flex;flex-wrap: wrap;
-  flex-direction: column;align-items:  center;;margin:100px;}
+  flex-direction: column;align-items:  center;;margin:2%;}
 
-  footer{background-color: YellowGreen; display: flex;flex-wrap: wrap;
-    justify-content: space-around;margin: 100px;align-items: center;;height: 400px;}
-    .redes{width:20%;height: 80px ;display:flex;flex-wrap: wrap;justify-content: center;margin-bottom: 200px;}
-  .copy{display: flex;flex-wrap: wrap;text-align: center;flex-direction: column;}
 
+
+  footer{height: 10vh;width: 80vw;background-color: YellowGreen; display: flex;flex-wrap: wrap;
+    justify-content: space-around;margin: 2%;align-items: center;;height: 20%;}
+    .redes{width:20%;height: 10% ;display:flex;flex-wrap: wrap;justify-content: center;display: inline;font-size: 200%;}
+  .copy{display: flex;flex-wrap: wrap;text-align: center;flex-direction: column;font-size: 150%}
+.miciudad{font-size: 100%}
 
 
   .whats{width: 100px;position: fixed;bottom: 60px;right: 60px;}
