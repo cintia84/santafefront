@@ -2,101 +2,154 @@
 @import url('https://fonts.googleapis.com/css2? familia = Kaushan + Guión &family= Satisfy & display=swap');
 @import url('https://fonts.googleapis.com/css2? familia = galleta yfamilia = Kaushan + Guión &family= Satisfy & display=swap');
 @import url('https://fonts.googleapis.com/css2? family= Cookie & family= Kaushan+Script & family= Satisfy & family= Titan+One & display=swap');
-body{background-color: green;background-image: url(madera2.jpg);display: flex;flex-wrap: wrap;}
+@import url('https://fonts.googleapis.com/css2? family= Cookie & family= Indie+Flower & family= Kaushan+Script & family= Kolker+Brush & family= Satisfy & family= Titan+ Uno & mostrar=cambiar');
+
+body{background-color: green;background-image: url(madera2.jpg);display: flex;flex-wrap: wrap;flex-direction:  row;}
 
 .contactos1{font-family:'Satisfacer', cursiva;width: 80vw;height: 50vh}
 
-header{height: 15vh;width: 73vw;background-color: yellow;background-image: url(verde.jpg);
+header{height: 12vh;width: 100%;background-color:pink;background-image: url(verde.jpg);
   background-size: cover;border: 5px black solid;font-size: 140%;
-  display: flex;flex-wrap: wrap;align-items: center;justify-content: space-around;margin: 1%;margin-left: 12%;border-radius: 10%;}
+  display: flex;flex-wrap: wrap;justify-content: center;align-items: flex-end;
+  padding:;margin-left: 2%;margin-right: 2%;border-radius: 5%;}
+.logo{display: flex;width: 5%;border-radius: 50%}
 
-.redes{display:flex;flex-wrap: wrap;justify-content:  flex-start;;display: inline;}
-.face{width: 10%;margin: 1%;border-radius: 10%}
-.inst{width: 10%;margin: 1%;border-radius: 10%}
-.pint{width: 10%;margin: 1%;border-radius: 10%}
-.you{width: 10%;margin: 1%;border-radius: 10%}
-.logo{width: 8%;margin-bottom: 1%;border-radius: 50%}
+.navbar{display: flex;flex-wrap: wrap;background-color: yellow;width: 73vw;height: 9vh;
+  margin-left: 12%;opacity: 90%;}
 
-nav{background-color: #999966;font-size: 200%;font-family:  'Cookie', cursiva;text-align: center;width: 73vw;height: 6vh;margin-left: 12%;border: black solid 5px}
+
+main{display: flex;flex-wrap: wrap;justify-content: space-around;margin-right:2%;justify-content: center;width: 90%}
+/*.titulomain{display: flex;justify-content:flex-start;margin-top: 10%}*/
+.textomain{font-size: 150%;font-style: ;font-weight: bold;font-family: 'Cookie', cursiva;;color: DarkViolet;text-align: center;
+  background-color: yellow;padding: 1%;opacity: 90%;display: flex;}
+.emptucumanas{display: flex;flex-wrap: wrap;font-size: 280%;font-style:  oblique;font-family: 'Satisfacer', cursiva;font-weight:  ;color: #BF360C;
+    font-weight: bold;-webkit-text-stroke: 0.5px #FFECB3;padding-top: 12%;}
+.imagenmain{display: flex;flex-wrap: wrap;justify-content: flex-end; }
+.tituloimagenmain{display: flex;flex-wrap: wrap;flex-direction: row;justify-content: center;
+  align-items: flex-start;}
 
 .inicio-contactos{display: flex;flex-wrap: wrap;flex-direction: column;;font-size: 150%;order:;align-items: flex-start;
   order: 1;background-color: YellowGreen;border-radius: 6%}
-
-.audio{font-size: 150%;display: flex;flex-wrap: wrap;flex-direction: column; align-items: center;
+.ingredientes{font-family: 'Satisfacer', cursiva;font-size: 250%;color:#DD2C00}
+.zonade{font-family: cursive;;font-size: 150%;font-weight: lighter;color:#33691E}
+.audio{font-size: 100%;display: flex;flex-wrap: wrap;flex-direction: column; align-items: center;
   background-color: YellowGreen; border-radius: 10%;order: -4}
 
-.juntos{display: flex;justify-content:center;align-items: flex-start;flex-wrap: wrap;flex-direction: row;}
+.juntos{display: flex;justify-content: space-around;
+align-items: flex-start;flex-wrap: wrap;display: run-in;width: 100%}
 
-h1{font-size: 180%;font-family: 'Cookie', cursiva;font-style:  italic;color: #B22222;
-text-decoration: underline;text-decoration-color: YellowGreen}
+h1{font-size: 150%;font-family: 'Cookie', cursiva;font-style:  italic;color: #B22222;
+text-decoration: underline;text-decoration-color: YellowGreen;display: flex;}
 
-h2{font-size: 100%;font-style:  oblique;;font-family: 'Satisfacer', cursiva;color: Chocolate;text-align: center;}
+.titulosrecetas{font-style:  'Cookie', cursiva;font-size: 180%;font-weight: bold; font-weight: bold;-webkit-text-stroke: 1px #FFE0B2;
+color: #993300;background-color: #AED581;opacity: 80%;padding-left: %}
 
-p{font-size: 70%;font-style:  oblique;font-family: 'Cookie', cursiva;;color: DarkViolet;text-align: center;
-background-color: yellow;padding: 1%;opacity: 70%;}
+a{font-size: 80%;font-family: 'Cookie', cursiva;font-style: oblique;color: #9900CC;display: flex;}
 
-a{font-size: 80%;font-family: 'Cookie', cursiva;font-style: oblique;color: #CCCC99;}
 
-h3{font-size: 100%;font-style: oblique;font-family: 'Titan One', cursiva;color: black}
+/* li{font-size: 120%;font-style:  italic;font-weight: bold;padding-left: 30%;text-align: justify;
+  color: #33691E;display: flex;background-color: #AED581;opacity: 80%}*/
+ li{font-size: 120%;font-style:  oblique;font-weight: bold;padding-left: 12%;text-align:  justify;
+  color: #33691E;display: flex;background-color: #AED581;opacity: 80%;padding-bottom: %}
 
-h4{font-family: 'Kaushan Script', cursiva;
-;font-size: 100%;color: #DC143C}
 
-li{font-size: 50%;font-style: normal;text-align: center;opacity: 80%;background-color: Goldenrod;display: flex;flex-wrap: wrap;}
 
-  section{width: 50%;margin-left: 1%;background-image: url(fondoculinario.jpg);background-repeat: no-repeat;background-size: cover;
-  background-attachment: fixed;font-size: 40px;color:white;display: flex;flex-wrap: wrap
-  ;flex-direction: column;;text-align:center ;padding: 5%; margin-right: 1%;border: solid black 5px;}
+section{width:54%;background-color:;background-image: url(fondoculinario.jpg);background-repeat: no-repeat;background-size: contain;
+  background-attachment: fixed;display: flex;flex-wrap: wrap
+  ;flex-direction: column;margin-left: 1%;text-align:center ;padding: 1%;border: solid black 2px;}
 
-.enlacesrecetas{background-color: #999966;width: 85%;font-family: 'Cookie', cursiva;font-size: 200%;border-radius: 2%;opacity: 80%}
 
-section2{display: flex;flex-wrap: wrap;flex-direction:  row;justify-content: space-between;width: 73vw
-  ;margin: 2%;margin-left: 13%;background-color: YellowGreen;border-radius: 2%}
+aside{width:38% ;height: 100%;background-color: pink; background-image: url(fondoempanadas.jpg);background-size: contain;
+    background-attachment: fixed;display: flex;flex-wrap: wrap;
+    flex-direction: column;justify-content: space-around;padding: 2%;align-items:  center;border: solid black 2px;margin-right: 1%}
+.Famaillátitmapa{font-style:  'Cookie', cursiva;font-size: 200%;font-weight: bold; font-weight: bold;-webkit-text-stroke: 1px #FFE0B2;
+  color: #993300;padding-left: 25%}
+.video{display: flex;font-size: 200%;display: flex;margin-left: 8%;margin: 6%;flex-direction: column;}
+.manosalaobra{font-size: 100%;font-weight: bold;-webkit-text-stroke: 1px white;color:#DD2C00}
+.enlacesrecetas{width: 50%;font-family: 'Cookie', cursiva;font-size: 150%;border-radius: 2%;
+opacity:;display: flex;justify-content: center;flex-direction: column;;}
+.miraquemas{font-family: 'Cookie', cursiva;font-weight: bold;-webkit-text-stroke: 1.2px black;;font-size: 150%;color: #33FF00;}
+.empollo{font-size: 120%;font-weight: bold;color: #CCCC99}
+.emjyq{font-size: 120%;font-weight: bold;color: #CCCC99}
+.emhumita{font-size: 120%;font-weight: bold;color: #CCCC99}
+.emarabes{font-size: 120%;font-weight: bold;color: #CCCC99}
 
-.tartadecebolla{width:60%; margin: 2%}
-.tartadericota{width: 60%;margin: 2%}
-.pascualina{width: 60%;margin: 2%}
-.crostata{width: 60%;margin: 2%}
 
-aside{width: 25vw;background-color: pink; background-image: url(verde.jpg);
-  background-repeat: no-repeat;background-size:cover;background-attachment: fixed;display: flex;flex-wrap: wrap;
-  flex-direction: column;justify-content: space-around;padding: 2%;align-items:  center;border: solid black 5px}
+section2{display: flex;flex-wrap: wrap;flex-direction:  row;justify-content:  space-around;
+  ;margin: 2%;margin-left: %;width: 100%;border-radius: 2%;padding-bottom: 5%}
+.card-text{font-size: 100%;font-style: ;font-weight: bold;font-family: 'Cookie', cursiva;
+color: DarkViolet;text-align: center;background-color: yellow;width: 90%;}
+.card-title{font-size: 130%;;font-family:  sans-serif;font-weight: bold;}
+.tartadecebolla{width: 10rem; margin: 2%}
+.fondocebolla{background-color: #FF6633;width: 60%;border: solid black 2px;border-radius: 5%}
+.tartadericota{width: 10rem;margin: 2%}
+.fondoricota{background-color: #6666FF;width: 60%;border: solid black 2px;border-radius: 5%}
+.pascualina{width: 10rem;margin: 2%}
+.fondopascualina{background-color: #99CC33;width: 60%;border: solid black 2px;border-radius: 5%}
+.crostata{width: 10rem;margin: 2%;}
+.fondocrostata{background-color: #990000;width: 60%;border: solid black 2px;border-radius: 5%}
+.container{padding-left: %;align-content: justify;}
+.row{justify-content: space-around;align-content: center;}
 
-  .video{font-size: 200%;display: flex;flex-wrap: wrap;margin-left: 8%;margin: 6%}
-  .Famaillá{font-size: 200%;margin: 4%}
 
-  footer{height: 16vh;width: 73vw;background-color: #999966; display: flex;flex-wrap: wrap;
-    justify-content: space-around;margin-left: 10%;align-items:  flex-start;  ;opacity: 90%;border-radius: 10%}
+footer{height: 20vh;width: 100vw;background-color: #7CB342; display: flex;flex-wrap: wrap;
+    justify-content: space-around;margin:2%;opacity: 90%;border-radius: 10%}
 
-.redes{width:20%;height: 8% ;display:flex;flex-wrap: wrap;justify-content: center;display: inline;font-size: 150%;}
+.redes{width:20%;display:flex;flex-wrap: wrap;justify-content:  space-around;align-items: center;flex-direction: row}
+.face{width: 3rem;height:3rem; margin: 1%;border-radius: 10%}
+.inst{width: 3rem;height:3rem;margin: 1%;border-radius: 10%}
+.pint{width: 3rem;height:3rem;margin: 1%;border-radius: 10%}
+.you{width: 3rem;height:3rem;margin: 1%;border-radius: 10%}
+.github{width: 3rem;height:3rem;margin: 1%;border-radius: 10%}
 
-.copy{display: flex;flex-wrap: wrap;text-align: center;align-items: flex-start;flex-direction: column;font-size: 200%;}
-
-.miciudad{font-size: 100%}
-
-.whats{width: 100px;position: fixed;bottom: 60px;right: 200px;}
+.copy{display: flex;flex-wrap: wrap;text-align: center;align-items: flex-start;flex-direction: column;font-size: 150%;}
+/*.copydatos{font-family:   sans-serif;font-size: 60%;font-weight: bold;color:#1B5E20;}*/
+.botoncopy{background-color: #B71C1C;font-style: italic;border-radius: 10%}
+.idcintia{font-family: 'Satisfacer', cursiva; text-decoration: underline;font-size: 130%}
+.divmiciudad{font-size: 100%;display: flex;flex-wrap: wrap;flex-direction: column;}
+.venado{font-family: cursive;font-size: 100%;color:#B71C1C}
+.mapavenado{width: 50%}
+.whats{width: 100px;position: fixed;bottom: 60px;right: 100px;display: flex;}
 
 a:hover{color:yellow;font-size: 150%;}
 
-footer:hover{background-color: Sienna;}
+footer:hover{background-color: #AEEA00;}
 
 .whats:hover{width: 200px}
 
-.audio:hover{width: 80%;background-color: red;font-family:'Titan One', cursiva;
+.audio:hover{width: 80%;background-color: #990000;font-family:'Titan One', cursiva;
 border-radius: 20%}
-
-.dibujo{width: 30%; height:40% }
-
-@media (max-width:700px){
-  .logo{
-    display: none;
-  }
+/*estilos para tablets*/
+@media (min-width: 768px) (max-width: 940px){
+.juntos{
+  width: 600px;display: block;}
+header{
+  width:600px}
+footer{
+  width: 600px}
+  main{
+    width: 600px}
+    nav{
+      width: 600px}
+}*/
+/*medida movil vertical*/
+@media (max-width: 575px)
+{
+body{width: 100%}
+header{width: 100%}
+main{width: 100;font-size: 100%;left: 1rem;}
+.textomain{font-size: 100%;border-left: 20%}
+section{width:100%;background-color: none;background-image: url(fondovertical.jpg);
+  background-size: auto; contain;padding: 5%;margin: 2%}
+ li{align-items: center;font-size: 60%}
+aside{width: 100%;height: 40%}
+.enlacesrecetas{font-size: 100%}
+.footer{width: 100% }
 }
 
-@media (min-width:700px) {
-  .dibujo{
-    display: none;
-  }
+
+
+
 }
 @media (max-width:575px) {
   h1{
